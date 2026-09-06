@@ -14,3 +14,7 @@ stem(ce621.female$totchg)
 summary(ce621.male$totchg)
 sd(ce621.male$totchg)
 quantile(ce621.male$totchg, c(0, .10, .25, .50, .75, .90, 1))
+
+summary(ce621.female$totchg)
+sd(ce621.female$totchg)
+quantile(ce621.female$totchg, c(0, .10, .25, .50, .75, .90, 1))
