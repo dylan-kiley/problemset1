@@ -1,5 +1,6 @@
 library(tidyverse)
 ce621 <- read_csv("ce621.csv")
+
 summary(ce621)
 table(ce621$sex, useNA = "ifany")
 table(ce621$smoker, useNA = "ifany")
