@@ -29,3 +29,5 @@ boxplot(totchg ~ sex + agecat, data=ce621e95,
         col=c("pink", "lightblue"), 
         ylab="Total Charge ($)", 
         main="Carotid Endarterectomy Costs by Sex and Age (1995)")
+
+ce621e95$log10chg = log10(ce621e95$totchg)
