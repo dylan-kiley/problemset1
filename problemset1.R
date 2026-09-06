@@ -10,3 +10,7 @@ ce621.female = filter(ce621, sex=="Female")
 
 stem(ce621.male$totchg)
 stem(ce621.female$totchg)
+
+summary(ce621.male$totchg)
+sd(ce621.male$totchg)
+quantile(ce621.male$totchg, c(0, .10, .25, .50, .75, .90, 1))
